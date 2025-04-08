@@ -9,13 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C3BC6F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{755D4C3A-E363-4C23-80EB-76E120872C32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlatformLocator.App", "AdPlatformLocator.App\AdPlatformLocator.App.csproj", "{C07FD193-22B3-4565-8184-05159A4F7416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdPlatformLocator.App", "AdPlatformLocator.App\AdPlatformLocator.App.csproj", "{C07FD193-22B3-4565-8184-05159A4F7416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlatformLocator.Domain", "AdPlatformLocator.Domain\AdPlatformLocator.Domain.csproj", "{24A542AC-B1D8-41AC-91E7-CAF18A876B9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdPlatformLocator.Domain", "AdPlatformLocator.Domain\AdPlatformLocator.Domain.csproj", "{24A542AC-B1D8-41AC-91E7-CAF18A876B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlatformLocator.Data", "AdPlatformLocator.Data\AdPlatformLocator.Data.csproj", "{F8411335-D878-43BD-9285-C7195CF4E22C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdPlatformLocator.Data", "AdPlatformLocator.Data\AdPlatformLocator.Data.csproj", "{F8411335-D878-43BD-9285-C7195CF4E22C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlatformLocator.API", "AdPlatformLocator.API\AdPlatformLocator.API.csproj", "{E1E375A1-5E36-429B-A008-4F836F5F0B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdPlatformLocator.API", "AdPlatformLocator.API\AdPlatformLocator.API.csproj", "{E1E375A1-5E36-429B-A008-4F836F5F0B48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C7128F69-AA0F-4F41-B250-08B043D3FBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdPlatformLocator.Tests", "AdPlatformLocator.Tests\AdPlatformLocator.Tests.csproj", "{13137A88-582F-4920-8EB8-45D9996A0F37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{E1E375A1-5E36-429B-A008-4F836F5F0B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1E375A1-5E36-429B-A008-4F836F5F0B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1E375A1-5E36-429B-A008-4F836F5F0B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13137A88-582F-4920-8EB8-45D9996A0F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13137A88-582F-4920-8EB8-45D9996A0F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13137A88-582F-4920-8EB8-45D9996A0F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13137A88-582F-4920-8EB8-45D9996A0F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{24A542AC-B1D8-41AC-91E7-CAF18A876B9E} = {C3BC6FDC-66D8-42F6-8BF9-7CDB0C2FBE03}
 		{F8411335-D878-43BD-9285-C7195CF4E22C} = {755D4C3A-E363-4C23-80EB-76E120872C32}
 		{E1E375A1-5E36-429B-A008-4F836F5F0B48} = {755D4C3A-E363-4C23-80EB-76E120872C32}
+		{13137A88-582F-4920-8EB8-45D9996A0F37} = {C7128F69-AA0F-4F41-B250-08B043D3FBD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CEB1B93-E62B-4B7D-8455-0C55CECD94E8}
