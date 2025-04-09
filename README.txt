@@ -13,8 +13,9 @@
 
 ### 1. Клонирование репозитория
 
-git clone https://github.com/your-username/adplatform-locator.git
-cd adplatform-locator/AdPlatformLocator.API
+git clone https://github.com/amoshkatyuk/AdPlatformLocator
+cd AdPlatformLocator
+cd AdPlatformLocator.API
 
 ### 2. Проверка, что установлен .NET 8 SDK
 
